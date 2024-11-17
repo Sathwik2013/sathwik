@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box 
+{
+background-color: transparent;
+width: 300px;
+height: 300px;
+border: 1px solid #f1f1f1;
+perspective: 1000px;
+}
+
+.flip-box-inner 
+{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.9s;
+transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+position: absolute;
+width:100%;
+height:100%;
+-webkit-backface-visibility:hidden;
+backface-visibility:hidden;
+}
+
+.flip-box-front{
+background-color:#bbb;
+color:black;
+}
+.flip-box-back{
+background-color:#2980b9;
+color:white;
+transform:rotatey(180deg);
+}
+</style>
+</head>
+<body>
+			<h1>  MESSI(GOAT)</h1>
+			<h3>My Favorite footballer</h3>
+<div class="flip-box">
+<div class="flip-box-inner">
+<div class="flip-box-front">
+<img src="messi.jpg" alt="Cristiano Ronaldo" style="width:300px;height:300px"> 
+</div>
+<div class="flip-box-back">
+<div class="flip-card-back">
+	<h1>Lionel Andrés Messi </h1>
+	<p>date of birth-born 24 June 1987 </p>
+<p> is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time, Messi set numerous records for individual accolades won throughout his professional footballing career such as eight Ballon d'Or awards and eight times being named the world's best player by FIFA.[note 2] He is the most decorated player in the history of professional football having won 45 team trophies	</p>
+	<p>Lionel Andrés Messi (full name of Messi )mother is name Celia María Cuccittini and father name is
+	Jorge Messi </p>
+	
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
